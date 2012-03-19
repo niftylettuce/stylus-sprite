@@ -1,13 +1,16 @@
 {
     "name": "stylus-sprite",
     "description": "Generate sprite images with Stylus",
-    "version": "0.1.7",
+    "version": "0.1.8",
     "author" : "Andris Reinman",
     "maintainers":[
         {
             "name":"andris",
             "email":"andris@node.ee"
         }
+    ],
+    "contributors": [
+        { "name": "Nick Baugh", "email": "niftylettuce@gmail.com" }
     ],
     "homepage": "http://github.com/andris9/stylus-sprite",
     "repository" : {
@@ -22,8 +25,10 @@
         }
     ],
     "dependencies": {
-        "node-gd":"*"
+        "node-gd":"https://github.com/niftylettuce/node-gd/tarball/"
     },
-    "engine": [ "node >=0.3.0" ],
+    "engine": {
+        "node": ">= 0.6.x"
+    },
     "keywords": ["CSS", "sprite", "sprites", "images"]
 }
